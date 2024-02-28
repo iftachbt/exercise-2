@@ -11,13 +11,13 @@ pipeline {
 
         stage('db') {
           steps {
-            sh 'docker build -t db ./db'
+            sh 'sh \'echo \\\'db...\\\'\''
           }
         }
 
         stage('flask') {
           steps {
-            sh 'docker build -t flask ./flask'
+            sh 'docker build -t backend ./backend'
           }
         }
 
