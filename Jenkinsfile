@@ -11,7 +11,7 @@ pipeline {
 
         stage('db') {
           steps {
-            sh 'sh \'sh \\\'echo \\\\\\\'db...\\\\\\\'\\\'\''
+            sh 'sh \\\'echo \\\\\\\'db...\\\\\\\'\\\''
           }
         }
 
